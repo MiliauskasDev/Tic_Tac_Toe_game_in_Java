@@ -2,7 +2,7 @@ package tictactoe;
 
 public class Controller {
 
-    private View view;
+    private final View view;
     private Board board;
 
     public Controller(View view){
@@ -46,15 +46,6 @@ public class Controller {
 
     private void printCurrentBoard() {
         view.printString(this.board.toString());
-    }
-
-    private void setBoardLayout() { // used for testing
-        String input;
-        do {
-            input = this.view.getUserInput();
-        } while (input.length() != 9);
-
-        this.board = new Board(input);
     }
 
 }

@@ -3,18 +3,11 @@ package tictactoe;
 public class Board {
 
     private char[][] board;
-    private char playerToMove = 'X';
+    private char playerToMove;
 
     public Board() {
         this.board = new char[][] {{'_', '_', '_'}, {'_', '_', '_'}, {'_', '_', '_'},};
-    }
-
-    public Board(char[][] board) { // used for testing purposes
-        this.board = board;
-    }
-
-    public Board(String board) { // used for testing purposes
-        this.board = new char[][] {{board.charAt(0), board.charAt(1), board.charAt(2)}, {board.charAt(3), board.charAt(4), board.charAt(5)}, {board.charAt(6), board.charAt(7), board.charAt(8)}};
+        playerToMove = 'X';
     }
 
     @Override
