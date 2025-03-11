@@ -1,0 +1,27 @@
+type: edu
+custom_name: First move!
+files:
+  - name: src/tictactoe/Main.java
+    visible: true
+    learner_created: false
+  - name: test/TicTacToeTest.java
+    visible: false
+    learner_created: false
+  - name: src/tictactoe/Board.java
+    visible: true
+    learner_created: true
+  - name: src/tictactoe/ConsoleView.java
+    visible: true
+    learner_created: true
+  - name: src/tictactoe/Controller.java
+    visible: true
+    learner_created: true
+  - name: src/tictactoe/View.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/5400#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 11 Mar 2025 20:25:01 UTC"
+record: 4
